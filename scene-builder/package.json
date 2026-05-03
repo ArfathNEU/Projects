@@ -1,0 +1,52 @@
+{
+  "name": "scene-builder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "worker:dev": "cd cf-worker && wrangler dev",
+    "worker:deploy": "cd cf-worker && wrangler deploy"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/drei": "^9.121.4",
+    "@react-three/postprocessing": "^2.16.3",
+    "three": "^0.169.0",
+    "zustand": "^5.0.12",
+    "yjs": "^13.6.30",
+    "y-websocket": "^2.1.0",
+    "y-webrtc": "^10.3.0",
+    "postprocessing": "^6.36.4",
+    "three-mesh-bvh": "^0.7.8",
+    "@gltf-transform/core": "^4.3.0",
+    "@gltf-transform/extensions": "^4.3.0",
+    "comlink": "^4.4.2",
+    "nanoid": "^5.0.7",
+    "@anthropic-ai/sdk": "^0.27.3",
+    "leva": "^0.10.1",
+    "@radix-ui/react-dialog": "^1.1.6",
+    "@radix-ui/react-tooltip": "^1.1.8",
+    "@radix-ui/react-separator": "^1.1.2",
+    "@radix-ui/react-select": "^2.1.6",
+    "@radix-ui/react-slider": "^1.2.3",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.5",
+    "lucide-react": "^0.511.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "@vitejs/plugin-react": "^4.5.0",
+    "typescript": "^5.8.3",
+    "@types/three": "^0.169.0",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.5",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "scene-builder-worker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "yjs": "^13.6.30"
+  },
+  "devDependencies": {
+    "wrangler": "^3.103.2",
+    "@cloudflare/workers-types": "^4.20250525.0",
+    "typescript": "^5.8.3"
+  }
+}
